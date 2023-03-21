@@ -1,0 +1,10 @@
+.navbar {
+  border: 1px solid #b34c4c;
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.products {
+  padding: 16px;
+}
