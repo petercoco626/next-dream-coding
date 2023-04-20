@@ -1,7 +1,8 @@
+import { getProducts } from '@/api/products';
 import Link from 'next/link';
 
 export default function Products() {
-  const productsList = ['shirt', 'pants', 'skirt', 'shoes'];
+  const productsList = getProducts();
 
   return (
     <>
